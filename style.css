@@ -1,0 +1,134 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     }
+ .menu ul {
+     margin: 0 4px;
+     list-style-type: none;
+     background-color: #f29D13;
+     padding: 18px;
+     text-align: center;
+     margin-top: 0;
+     margin-left: 0;
+     margin-right: 0;
+ }
+
+ .menu li {
+     display: inline-block;
+ }
+ .menu a {
+     text-decoration: none;
+     color: #000;
+     font-weight: bold;
+     margin: 1em;
+     font-family: "Poppins", sans-serif;
+ }
+
+ .menu a:hover {
+     color: #f29D13;
+     background-color: #020e1b;
+     border-radius: 8px;
+ }
+
+ .menu a {
+     text-decoration: none;
+     color: #000;
+     font-weight: bold;
+     padding: 12px 12px;
+     transition: color 0.3s, background-color 0.1s;
+ }
+
+ input {
+     color: #f29D13;
+     height: 40px;
+     width: 90%;
+     margin-left: 60px;
+     margin-top: 20px;
+     border-radius: 30px;
+     border-color: #f29D13;
+
+ }
+
+ input:placeholder {
+     font-size: medium;
+     padding: 15px;
+     color: #f29D13;
+     text-align: left
+ }
+
+ .p {
+     text-align: center;
+     font-weight: bold;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin: 17px;
+
+ }
+
+ .Rs {
+     text-align: center;
+     color: #f29D13;
+     font-weight: bold;
+     margin: 17px;
+ }
+
+ .btn {
+
+     height: 30px;
+     width: 13em;
+     background-color: #f29D13;
+     color: white;
+     border-radius: 15px;
+     cursor: pointer;
+     margin-top: 20px;
+margin-left: 2rem;
+border-color: transparent;
+ }
+
+ div {
+     display: inline-block;
+     margin: 1rem;
+     align-items: center;
+     height: 430px;
+     border-radius: 16px;
+     padding: 10px 20px;
+     margin-left: 20px;
+     transition: all 0.5s ease;
+    
+ }
+
+ .search {
+     width: 50em;
+     padding: 10px;
+     border-radius: 20px;
+     border-color: #f29D13;
+     color: #f29D13;
+     background-color: white;
+     margin: 20px;
+     text-decoration-color: #f29D13;
+ }
+
+ ::placeholder {
+     color: #f29D13;
+     padding: 0.5rem;
+   
+ }
+.background:hover {
+    border-color: #f29D13;
+    transform: scale(1.1); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+   border: 3px solid #f29D13;
+   
+}
+.bg{
+border-radius: 20px;
+}
+.banner{
+    height: 250px;
+    width: 90%;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    margin-top: 2.4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
